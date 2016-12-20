@@ -48,3 +48,38 @@
 |:not(selector)|排除某些元素|
 |a+b|选择紧邻在a元素后的b元素|
 |a~b|选择前面有a元素的b元素|
+## box-sizing
+> 定义盒子模型形式 border-box
+## outline
+> 定义描边/轮廓线
+
+|属性|值|
+|:----:|:----:|
+|outline-width|轮廓线的宽度|
+|outline-style|轮廓线的样式|
+|outline-color|轮廓线的颜色|
+|outline-offset|轮廓线向外的偏移量 可以为负值|
+> outline 不支持跟随圆角变化
+
+## border-radius
+> 可以设置1/2/3/4个值
+
+> 同一个位置的两个值 a/b 或者 a1 b1 c1 d1/a2 b2 c2 d2
+
+## box-shadow
+> 横向偏移量 纵向偏移量 阴影的模糊程度
+ 阴影的大小
+ 阴影的颜色
+ 阴影的位置(inset)
+
+>阴影可以添加很多组值
+
+## background
+ * background-clip
+ > 当前背景图片的裁剪范围
+ * background-orgin
+ > 当前背景图片的定位参照
+ * background-size
+ > 长度 百分比  cover 等比例放大图片 直到铺满容器位置
+ contain 等比例放大图片 直到不能再继续放大位置
+ * 设置多组值
