@@ -83,3 +83,42 @@
  > 长度 百分比  cover 等比例放大图片 直到铺满容器位置
  contain 等比例放大图片 直到不能再继续放大位置
  * 设置多组值
+## border-image
+|属性|值|
+|:----:|:----:|
+|border-image-source|图片的路径|
+|border-image-slice|图片截取量|
+|border-image-width|图片边框的宽度|
+|border-image-outset|图片向外的偏移量|
+|border-image-repeat|图片重复的方式|
+
+
+1. 在管理控制台添加部署 添加数据库
+ * 数据库的名称 ROtjaQhrLsdpfKNrYqZA
+ * 数据库的地址 sqld.duapp.com:4050
+ * 数据库的账号 3aa531573984499b82d2eee00c57d0c0
+ * 数据库的密码 22527c4ce96b4c05adf17d558826f606
+
+2. 数据库
+  * 导出数据库文件将localhost替换为wangqiccc.duapp.com
+  * 在服务器端将数据库导入
+3. 上传代码
+  * svn svn检出到对应文件夹
+  * 删掉无用的文件
+  * 拷贝自己的文件到这文件夹中
+  * caches/configs/database.php
+  ![](http://localhost:63342/myproject/12.20/upload.jpg)
+  * caches/configs/system.php localhost==>wangqiccc.duapp
+ ![](http://localhost:63342/myproject/12.20/upload2.jpg)
+  * 通过svn上传
+
+
+  * git
+    * git clone https://git.duapp.com/appidf6bah85rnc
+    * git rm index.html
+    * git commit -m "remove"
+    * git push
+
+    * git add phpcms
+    * git commit -m "add"
+    * git push
